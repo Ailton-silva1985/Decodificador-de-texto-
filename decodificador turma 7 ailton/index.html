@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="icon" type="image/x-icon " href="./assets/svg/Icon.png">
+    <title>Decodificador e Codificador  de texto</title>
+</head> 
+
+<body>
+    <main class="display-grid">
+        <div class="grid-item-1">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.1712930781.svg" alt="ALURA">
+        </div>
+        <div class="grid-item-2">
+            <textarea name="texto" id="inptTextArea" placeholder="Digite seu texto aqui "></textarea>
+            <div class="box-exclamation">
+                <svg width="17px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-5a.75.75 0 01.75.75v4.5a.75.75 0 01-1.5 0v-4.5A.75.75 0 0110 5zm0 10a1 1 0 100-2 1 1 0 000 2z"
+                        clip-rule="evenodd" />
+                </svg>
+                <small>so letras maiuscula sem acento</small>
+            </div>
+            <div class="box-controls">
+                <button id="btnEncrypted">Cripitogravar</button>
+                <button id="btnDecrypted">Descriptografar</button>
+            </div>
+        </div>
+        <div class="grid-item-3">
+            <div class="box-result-encriptador">
+                <img class="pre-information" src="./assets/svg/Muñeco.svg" alt="empty message">
+                <h2 class="pre-information" >Nenhuma Mensagem encontrada</h2>
+                <span class="pre-information" >Digite um texto que você deseja criptografar
+                    ou Descriptografar.</span>
+                <textarea id="outptTextArea" id="inpt_texto" placeholder="Ingresa el texto aquí"></textarea>
+                <button id="btnCopyResult">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+       <div class="byDeveloper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="15px">
+                <path
+                    d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+            </svg>
+            <small>desenvolvido por Ailton turma 7 ONE + Oracle  <a target="_blank" href="https://github.com/Ailton-silva1985/Decodificador-de-texto-.git">Ailton silva</a></small>
+       </div>
+    </footer>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
